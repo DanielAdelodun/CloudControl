@@ -1,5 +1,3 @@
-<div style="text-align: center;">
-
 # CloudControl
 
 
