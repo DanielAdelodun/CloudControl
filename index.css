@@ -1,0 +1,42 @@
+.drone-svg-object, .setpoint-svg-object, .geofence-svg-object, .takeoff-svg-object, .land-svg-object{
+    pointer-events: none;
+}
+
+#PageTitle {
+    cursor: help;
+} 
+
+#drone-rotate-svg {
+    cursor: crosshair;
+}
+
+#yaw-widget-arrow {
+    cursor: pointer;
+}
+
+input[type="color"].custom {
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 0;
+  width: 0;
+}
+
+@media (min-width: 576px) {
+    .twitch {
+        width: 480px;
+        height: 270px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .twitch {
+        width: 720px;
+        height: 480px;
+    }
+
+    #map {
+        width: 1024px;
+    }
+}
